@@ -1,0 +1,14 @@
+body{
+    max-width: auto;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+H1{
+    color:orange;
+    font-weight: 300;
+}
+H2{
+    color:green;
+}
