@@ -1,1 +1,394 @@
+<html>
+    <title>Exercice MarkDown en HTML</title>
+        <body>
+<meta charset="UTF-8">
+<h1>README</h1>
+<h1>TeamWork (TW) - Initiation au <strong>M</strong>ark<strong>D</strong>own</h1>
 
+<h2>Date du TW</h2>
+08/06/2020
+
+<h2>Lieu du TW</h2>
+BeCode Charleroi 
+
+<h2>Participants au TW</h2>
+    <a href="https://github.com/ch-vdld-dev">Christophe Vanderlinden</a><br>  
+    <a href="https://github.com/Marie-Pierard">Marie Pierard  </a><br>
+    <a href="https://github.com/kalonjis">Stéphane Kalonji</a><br> 
+    <a href="https://github.com/nicode-be/">Nicolas Denoël</a><br>  
+
+<h2>Cadre du TW </h2>
+Travail d'initiation au markdown et à l'utilisation de Git et de ses principales commandes, réalisé dans le cadre du training Web Developer chez <a href="https://www.becode.org">BeCode</a> en suivant ces <a href="https://github.com/becodeorg/CRL-Woods-3.21/blob/master/LearningPath/01-Prairie/04.Markdown/2.exercice-markdown-groupe.md">consignes</a>.
+
+<h2>Contenu du TW</h2>
+Documentation expliquant l'utilité du markdown et l'essentiel de sa syntaxe.
+Les différentes syntaxes sont accompagnées d'exemples. 
+
+<h2>Progression</h2>
+Clôturé
+
+<h1>Index</h1>
+
+<h2>Section Intro</h2>
+La section intro vous donne une petite idée de ce qu'est MarkDown.
+<ul>
+    <li>Une langue avant tout</li> 
+    <li>À quoi ca sert ?</li>
+</ul>
+
+<h2>Section Mise en forme</h2>
+La section mise en forme vous montre comment agrémenter votre texte :
+<ul>
+    <li>Mise en Gras</li>
+    <li>Mise en Italique</li>
+    <li>Mise en Gras et en Italique</li>
+    <li>Blockquotes</li>
+    <li>Blockquotes avec plusieurs paragraphes</li>
+    <li>Blockquotes imbriquées</li>
+    <li>Blockquotes avec d'autres éléments</li>
+</ul>
+
+<h2>Section Hiérarchie</h2>
+La section hierarchie donne des informations sur comment hiérarchiser votre fichier.
+<ul>
+    <li>Comment utiliser les différents niveaux de titres</li>
+    <li>Comment créer un paragraphe</li>
+    <li>Comment créer un saut de ligne</li>
+    <li>Comment créer une liste non ordonnée</li>
+    <li>Comment créer une liste ordonnée</li>
+    <li>Comment créer une liste mixte</li>
+    <li>Comment créer une check-list</li>
+    <li>Comment créer un tableau</li>
+</ul>
+
+<h2>Section Media</h2>
+La section media vous montre comment ajouter des liens, des images, ...
+<ul>
+    <li>Liens simples</li>
+    <li>Liens relatifs</li>
+    <li>Images statiques</li>
+    <li>Images animées</li>
+    <li>Citations</li>
+    <li>Bloc de code</li>
+    <li>Emoji</li>
+</ul>
+
+<h2>Section Source</h2> 
+La section source vous donne toutes les sources utilisées pour rédiger les fichiers md. 
+
+<h1>Intro</h1>
+<h2><strong>Le MarkDown, Qu'est-ce que c'est?</strong></h2>   
+<h2>Une langue avant tout</h2>   
+Le Markdown est un langage de balisage léger permettant de formater et de baliser un document sans en compliquer la lecture, d'où l'emploi du terme "léger".  
+
+<h2>À quoi ca sert?</h2>  
+Comme indiqué précédemment, le MarDown, qui est utilisé dans de nombreuses applications, permet de formater un document directement dans le corps du texte sans l'alourdir.<br>  
+S'il est vrai que HTML présente des fonctions similaires, celui-ci complique grandement la lecture en raison de la présence de nombreux <i>tags</i> et instructions. 
+
+<p>Voici, pour illustrer nos propos, deux versions de la même phrase, en MarkDown et en HTML : 
+<ul>
+    <li>MarkDown: Écrire en <code>**gras**</code> ou en <code>*italique*</code> ne devrait pas être compliqué.</li>
+    <li>HTML: Écrire en &lt;strong&gt;gras&lt;/strong&gt; ou en &lt;em&gt;italique&lt;/em&gt; ne devrait pas être compliqué.</li>
+    <li>Résultat obtenu: Écrire en <strong>gras</strong> ou en <i>italique</i> ne devrait pas être compliqué.</li>  
+</ul>
+Comme on le voit, la version en MarkDown est beaucoup plus lisible.</p>  
+
+Il ne s'agit là que d'un exemple des nombreux avantages que présente le MarkDown.<br>  
+Ainsi, vous trouverez plus loin dans ce document des informations supplémentaires sur les différents usages qu'il est possible d'en faire. 
+
+<h1>Mise en forme dans markdown</h1>
+
+<h2>Mise en Gras</h2>
+  Pour mettre du texte en <strong>Gras</strong>, ajoutez deux astérisques <code>**</code> ou traits <code>__</code> de soulignement avant et après un mot ou une phrase.<br>  
+    <i>exemple</i>:
+    <ul>
+        <li> "Je m'appelle **<strong>Stéphane</strong>**;</li>  
+        <li>"Je m'appelle __<strong>Stéphane</strong>__.</li>
+   </ul>
+  Pour des raisons de compatibilité, privilégiez les astérisques ** pour la mise en gras de lettre au milieu d'un mot.
+  
+<h2>Mise en Italique</h2>
+
+ Pour mettre du texte en <i>Italique</i>, ajoutez un astérisque * ou un trait de soulignement _ avant et après un mot ou une phrase.<br>  
+    <i>exemple</i>: 
+<ul>
+    <li>"Je suis une formation chez *<i>BeCode</i>* ";</li>  
+    <li>" Je suis une formation chez _<i>BeCode</i>_ ".</li>   
+</ul>
+ Pour mettre en italique le milieu d'un mot pour l'accentuer, ajoutez un astérisque * sans espaces autour des lettres.  
+
+<h2>Mise en Gras et en Italique</h2>
+
+ Pour mettre texte en <b><i>Gras et en Italique</i></b> en même temps, ajoutez trois astérisques *** ou traits de soulignement ___ avant et après un mot ou une phrase.<br>  
+    <i>exemple</i>:  
+<ul> 
+   <li>" Maîtriser <i>Git</i> est ***<b><i>vraiment important</b></i>*** ";</li> 
+   <li>" Maîtriser <i>Git</i> est ___<b><i>vraiment important</b></i>___ ";</li>  
+   <li>" Maîtriser <i>Git</i> est **_<b><i>vraiment important</b></i>**_";</li>  
+   <li>" Maîtriser <i>Git</i> est *__<b><i>vraiment important</b></i>*__ ".</li>      
+</ul>
+ Pour mettre en gras et en italique le milieu d'un mot pour l'accentuer, ajoutez trois astérisques *** sans espaces autour des lettres.
+
+<h2>Blockquotes</h2>
+
+ Pour créer un blockquote, ajoutez un >devant un paragraphe.<br>  
+    <i>exemple</i>: <code>>ceci est un bloc de citation</code>
+
+<h2>Blockquotes avec plusieurs paragraphes</h2>
+
+ <b>Les blockquotes</b> peuvent contenir plusieurs paragraphes.<br> 
+ Ajoutez un > sur les lignes vides entre les paragraphes.<br>
+    <i>exemple</i>:    
+    <blockquote><code>>paragraphe 1</code></blockquote>  
+    <blockquote><code>></code></blockquote>   
+    <blockquote><code>>paragraphe 2</code></blockquote>
+             
+<h2>Blockquotes imbriquées</h2>
+
+ <b>Les blockquotes</b> peuvent être imbriquées. Ajoutez un ">>" devant le paragraphe que vous souhaitez imbriquer.<br>  
+    <it>exemple</it>:      
+    <blockquote><code>>bloque de citation niveau 1</code></blockquote>  
+    <blockquote><code>></code>  
+        <blockquote><code>>>bloque de citation niveau 2</code></blockquote></blockquote> 
+
+<h2>Blockquotes avec d'autres éléments</h2>
+
+<b>Les Blockquotes</b> peuvent contenir d'autres éléments au format Markdown. Tous les éléments ne peuvent pas être utilisés - vous devrez expérimenter pour voir lesquels fonctionnent.
+
+<h1>Hiérarchie</h1>
+<h2>Comment utiliser les différents niveaux de titres:</h2>
+
+Pour avoir différents niveaux de titres, nous devons utiliser le caractère "<b>#</b>".
+Voici quelques exemples avec leur équivalent en html:
+<ul>
+<li># Titre --> H1</li>
+<li>## Titre --> H2</li>
+<li>### Titre --> H3</li>
+<li>###### Titre --> H6</li>
+</ul>
+<h2>Comment créer un paragraphe:</h2>
+
+Les paragraphes sont séparés par un saut de ligne entre chaque paragraphe.<br>
+Voici un exemple:
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt risus magna, id faucibus dui gravida ut. Nulla facilisi. Mauris id arcu id urna pharetra gravida nec sit amet lectus. Nam condimentum, lectus sed dictum viverra, tortor justo feugiat neque, ut vehicula velit lacus et dui.</p>
+
+<p>Suspendisse imperdiet maximus urna at elementum. Maecenas est neque, lobortis nec orci quis, suscipit varius nunc. Sed porta velit id cursus condimentum. Proin enim libero, egestas a varius id, lacinia sit amet nisi. Ut posuere ante sed risus fermentum, quis imperdiet risus eleifend. Proin gravida imperdiet nunc, quis vestibulum turpis sodales non. Sed odio felis, feugiat malesuada gravida a, facilisis ac eros.</p>
+
+<p>Etiam lacus lorem, condimentum ac lacus ac, elementum blandit ex. Donec lacinia tortor sed massa faucibus rhoncus. Aliquam varius nisi nisl, eu viverra lectus suscipit convallis. Nullam augue velit, fringilla ut dolor eu, dignissim ornare urna. Quisque in ornare ante, vitae porttitor nisi. Integer aliquam et quam at facilisis. Donec finibus eros id justo ultricies malesuada. Fusce elementum sit amet dui id porta. Vestibulum non lectus augue.</p>
+<h2>Comment créer un saut de ligne:</h2>
+
+Pour couper une ligne en partie, il faut utiliser "<b>\</b>" pour arrêter la ligne et recommencer à la ligne suivante.<br>
+Voici un exemple:<br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+Maecenas tincidunt risus magna, id faucibus dui gravida ut.
+
+<h2>Comment créer une liste non ordonnée:</h2> 
+
+Vous devez utiliser soit le "-", soit le "*".<br>
+Voici un exemple de chaque:
+<ul>
+
+    <li>pomme</li>
+    <li>poire</li>
+    <li>orange</li>
+</ul>
+<ul>
+    <li>carré</li>
+    <li>rond</li>
+    <li>triangle</li>
+</ul>
+Pour créer une sous-liste dans une liste non ordonnée, il faut deux espaces dans cette sous-liste.<br>
+Voici un exemple de liste dans une liste:
+<ul>
+    <li>Fruit
+        <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li>Dairy
+        <ul>
+        <li>Milk</li>
+        <li>Cheese</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Comment créer une liste ordonnée:</h2>
+
+Vous devez utiliser le chiffre "1." et markdown incrémentera automatiquement la liste.<br>
+Voici un exemple:
+<ol>
+    <li>Un</li> 
+    <li>deux</li>
+    <li>trois</li>
+    <li>quatre</li>
+</ol>
+Pour créer une sous-liste dans une liste ordonnée, il faut ajouter trois espaces dans cette sous-liste.<br>
+Voici un exemple de liste dans une liste
+<ol>
+    <li>Un</li>
+    <li>deux
+        <ol>
+            <li>deux.un</li>
+            <li>deux.deux</li>
+        </ol>
+    </li>
+    <li>trois</li>
+</ol>
+<h2>Comment créer une liste mixte:</h2>
+
+Vous devez jongler avec "*" ou "-" et "1." et les espaces.<br>
+Voici un exemple:
+<ul>
+<li>Animaux
+    <ul>
+        <li>Mammifères
+            <ul>
+                <li>Sauvages
+                    <Ol>
+                        <li>Lions</li>
+                        <li>Tigres</li>
+                        <li>Gazelles</li>
+                    </Ol>
+                </li>
+                 <li>Domestiques
+                    <ul>
+                        <li>Chiens
+                            <ol>
+                            <li>Berger
+                                <ol>
+                                    <li>Berger Allemand</li>
+                                    <li>Berger Australien</li>
+                                    <li>Berger Belge</li>
+                                </ol>
+                            </li>
+                            <li>Chihuahua</li>
+                            </ol>
+                        </li>
+                        <li>Chats</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Poissons</li>
+    </ul>
+</li>
+</ul>
+
+<h2>Comment créer check liste:</h2>
+
+Vous devez utiliser "- [ ]" ou "-[X]"<br>
+Voici un exemple:<br>
+
+<input type="checkbox">Titres</input><br>
+<input type="checkbox">Liste non ordonnée</input><br>
+<input type="checkbox">Liste ordonnée</input><br>
+<input type="checkbox">Checklist</input>
+
+<h2>Comment créer un tableau:</h2>
+
+Vous devez utiliser "|" pour créer les colonnes et "-" pour créer la première ligne pour séparer le nom des colonnes de leurs contenus.<br>
+Voici un exemple :<br>
+<table>
+    <tr>
+        <th>Nom colonne 1</th>
+        <th>Nom colonne 2</th>
+        <th>Nom colonne 3</th>
+    </tr>
+    <tr>
+        <td>Contenu cellule 1</td>
+        <td>Contenu cellule 2</td>
+        <td>Contenu cellule 3</td>
+    </tr>
+    <tr>
+        <td>Contenu cellule 4</td>
+        <td>Contenu cellule 5</td>
+        <td>Contenu cellule 6</td>
+    </tr>
+    <tr>
+        <td>Contenu cellule 7</td>
+        <td>Contenu cellule 8</td>
+        <td>Contenu cellule 9</td>
+    </tr>
+</table>
+
+<h1>Liens et médias dans markdown</h1>
+<h2>Liens</h2>
+Pour réaliser un lien simple, il faut utiliser la syntaxe suivante:<br>   
+<code>[title](https://www.example.com)</code><br>
+<i>Exemple</i>: <code>[Lien vers Linkedin](https://www.linkedin.com)</code> vous donnera <a href="https://www.linkedin.com">Lien vers Linkedin</a>  
+
+<h2>Liens relatifs</h2>
+Pour réaliser un lien relatif, il faut utiliser la syntaxe suivante:<br>   
+<code>[title](folder/readme.md)</code>  
+<i>Exemple</i>: <code>[Lien vers l'index](/readme.md)</code> vous donnera [Lien vers l'index](/readme.md) 
+
+<h2>Images</h2>
+Pour afficher une image, il faut utiliser la syntaxe suivante:<br> 
+<code>![alt text](image.jpg)</code>  
+<i>Exemple</i>: <code>![img-cat](img/cat.jpg))</code> vous donnera <img src=img/cat.jpg width=50px height=50px>  
+
+<h2>Images animées .gif</h2>
+Pour afficher une image animée, il faut utiliser la syntaxe suivante:<br>
+<code>![alt text](image.jpg)</code>  
+<i>Exemple</i>: <code>![img-cat](img/gifex.gif))</code>` vous donnera <img src=img/gifex.gif width=50px height=50px> 
+
+<h2>Citations</h2>
+Pour écrire une citation, on utilise un chevron fermant > suivi d'un espace pour débuter la citation.<br>
+<i>Exemple</i>: <code>>Rien de grand ne s'est accompli dans le monde sans passion</code> vous donnera: 
+<q>Rien de grand ne s'est accompli dans le monde sans passion</q>
+
+<h2>Mentions</h2>
+Pour mentionner un membre de votre équipe ou une organistion, on utilise la syntaxe suivante:<br>
+<code>username@mentions</code><br> 
+<i>Exemple</i>: <code>ch-vlvd-dev@mentions</code> vous donnera : ch-vlvd-dev@mentions  
+
+<h2>Bloc de code </h2> 
+Un bloc code commence par une première ligne composée de : ````` et se termine par une ligne similaire.
+Vous placez votre code entre ces deux lignes.<br>
+
+<i>Exemple</i>:
+<p>
+```$result = $dbcon->query('SELECT * FROM tableop WHERE tags LIKE "%php%" ORDER BY title');while ($data = $result->fetch()) ```
+</p>
+
+vous donnera :
+
+<code>$result = $dbcon->query('SELECT * FROM tableop WHERE tags LIKE "%php%" ORDER BY title');while ($data = $result->fetch())</code>
+
+
+<h2>Emoji</h2>
+<b>M</b>ark<b>D</b>own vous permet d'insérer des `emojis` en utilisant <code>:nom-emoji:</code><br> 
+<i>Exemple</i>: <code>:rocket:</code> vous donnera &#128640<br>
+La liste complète des emojis est disponible <a href="https://gist.github.com/rxaviers/7360908">ici</a>.  
+
+<h1>Sources externes :</h1> 
+<ul>
+    <li>Sources en français :
+        <ul>
+            <li><a href="https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/">Un guide pour bien commencer avec markdown</a> <b>FR</b></li> 
+            <li><a href="https://support.discord.com/hc/fr/articles/210298617-Bases-de-la-mise-en-forme-de-texte-Markdown-mise-en-forme-du-chat-gras-italique-soulign%C3%A9-">Bases de la mise en forme de texte Markdown</a> <b>FR</b></li> 
+        </ul>
+    </li>
+    <li>Sources en anglais :
+        <ul>
+            <li><a href="https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax">Github - Basic writing and formatting syntax</a> <b>EN</b></li> 
+            <li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown cheatsheet</a> <b>EN</b></li>
+            <li><a href="https://gist.github.com/rxaviers/7360908">Complete list of Emoji</a> &#128512 </li>
+            <li><a href="https://daringfireball.net/projects/markdown/syntax#precode">Markdown syntax by John Gruber</a> <b>EN</b></li>
+            <li><a href="https://www.markdownguide.org/basic-syntax/#code">Basic Syntax - Markdown guide</a> <b>EN</b></li>
+            <li><a href="https://guides.github.com/features/mastering-markdown">Mastering-markdown</a> <b>EN</b></li>
+            <li><a href="https://commonmark.org/help/">CommonMark</a> <b>EN</b></li>
+            <li><a href="https://github.com/commonmark/commonmark-spec/issues/399">Github-spec</a> <b>EN</b></li>
+            <li><a href="https://www.markdownguide.org/basic-syntax/#lists">Basic Syntax</a> <b>EN</b></li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>
